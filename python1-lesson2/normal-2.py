@@ -26,6 +26,5 @@ else:
 
 # месяц и год
 text_date += months[int(date[3:5])] + ' ' + date[6:] + ' года'
-text_date = text_date.strip()
 
-print(text_date)
+print(text_date.strip())

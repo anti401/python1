@@ -11,4 +11,4 @@ k = float(equation[equation.find('=') + 1:equation.find('x')])
 b = float(equation[equation.find('x') + 1:])
 
 y = k*x + b
-print(y)
+print('При x = {} координата "{}" = {}'.format(x, equation, y))

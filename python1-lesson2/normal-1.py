@@ -15,5 +15,5 @@ for el in list_orig:
     if el >= 0 and math.sqrt(el).is_integer():
         list_new.append(int(math.sqrt(el)))
 
-print(list_orig)
-print(list_new)
+print('Исходный список: ', list_orig)
+print('Новый список: ', list_new)

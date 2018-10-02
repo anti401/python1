@@ -14,5 +14,5 @@ for el in list_orig:
     else:
         list_new.append(el * 2)
 
-print(list_orig)
-print(list_new)
+print('Исходный список: ', list_orig)
+print('Новый список: ', list_new)
