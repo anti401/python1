@@ -6,7 +6,7 @@
 equation = 'y = -12x + 11111140.2121'
 x = 2.5
 
-equation = equation.replace(' ','')
+equation = equation.replace(' ', '')
 k = float(equation[equation.find('=') + 1:equation.find('x')])
 b = float(equation[equation.find('x') + 1:])
 
