@@ -9,8 +9,8 @@ list_orig = [1, 23, 42, 68, 78, 224, 333, 657, 1024]
 list_new = []
 
 for el in list_orig:
-    if el % 4 == 0:
-        list_new.append(el // 4)
+    if el % 2 == 0:
+        list_new.append(el / 4)
     else:
         list_new.append(el * 2)
 
