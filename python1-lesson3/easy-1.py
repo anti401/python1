@@ -8,11 +8,11 @@
 
 
 def my_round(number, ndigits):
-    n = int(number * 10 ** ndigits)
+    n = int(number * 10 ** ndigits * 10)
     if n % 10 < 6:
-        return n / 10 ** ndigits
+        return n // 10 / 10 ** ndigits
     else:
-        return (n + 1) / 10 ** ndigits
+        return (n + 10) // 10 / 10 ** ndigits
 
 
 print(my_round(2.1234567, 5))
