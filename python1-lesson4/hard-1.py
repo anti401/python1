@@ -10,4 +10,4 @@ matrix = [[1, 0, 8],
 # Выполнить поворот (транспонирование) матрицы
 # Суть сложности hard: Решите задачу в одну строку
 
-print(list(zip(*matrix)))
+print([[row[i] for row in matrix] for i in range(len(matrix[0]))])
