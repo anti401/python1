@@ -38,7 +38,7 @@ while operation != 'q':
             print('Переход невозможен.')
 
     elif operation == '2':
-        print(os.listdir(current_dir))
+        print('В текущей папке:', os.listdir(current_dir))
 
     elif operation == '3':
         del_dir = input("Введите имя папки для удаления - ")
